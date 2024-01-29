@@ -1,10 +1,16 @@
+import Layout from "./components/Layout";
 
-function App() {
+const App = () => {
   return (
-    <div className="bg-white">
-      <h1 className="text-red-200 font-bold">Test</h1>
-    </div>
+    <Layout>
+      <div
+        data-testid="landing-page-test"
+        className="text-white font-bold text-center justify-center flex"
+      >
+        Landing Page
+      </div>
+    </Layout>
   );
-}
+};
 
 export default App;
